@@ -71,5 +71,5 @@ app.get('/logout', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log('Server running at port ' + port);
+    console.log(`App listening at http://localhost:${port}`);
 });
