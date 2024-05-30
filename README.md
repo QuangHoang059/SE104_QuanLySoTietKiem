@@ -30,10 +30,10 @@ Sau khi tải project từ github về máy tính cá nhân, ta cần thực hi�
 - Bước 1: Trong Command prompt, sử dụng lệnh cd để tới folder của project.
 - Bước 2: Trong Command prompt, sử dụng lệnh `npm i` để cài đặt các module cần thiết cho chương trình.
 - Bước 3: Tạo database mới trong SQL Server, sau đó dùng các lệnh từ file `nmcnpm_postgre.sql` để tạo các table
-- Bước 5: Config cập nhật tự động bằng SQL Server Agent Jobs (cần bật sever bên máy chủ là client và browser )
-- Bước 6: Trong folder config, chỉnh sửa các thông tin của file `cnStr.js` đúng với thông tin của database đã được tạo(tên database, password,...).
-- Bước 7: Phải start SQL Server Browser trên SQL Server 2022 Configuration Manager.
-- Bước 8: Sau khi đã hoàn thành các bước trên, trong Command prompt, sử dụng lệnh `npm start` để server được khởi chạy, port đang sử dụng sẽ được thông báo, truy cập vào để xem kết quả.
+- Bước 4: Config cập nhật tự động bằng SQL Server Agent Jobs (cần bật sever bên máy chủ là client và browser )
+- Bước 5: Trong folder config, chỉnh sửa các thông tin của file `cnStr.js` đúng với thông tin của database đã được tạo(tên database, password,...).
+- Bước 6: Phải start SQL Server Browser trên SQL Server 2022 Configuration Manager.
+- Bước 7: Sau khi đã hoàn thành các bước trên, trong Command prompt, sử dụng lệnh `npm start` để server được khởi chạy, port đang sử dụng sẽ được thông báo, truy cập vào để xem kết quả.
 
 ### MỘT SỐ CHỨC NĂNG CƠ BẢN CỦA ĐỒ ÁN (CURRENT STATUS)
 
